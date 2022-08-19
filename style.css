@@ -10,3 +10,6 @@
     border: none;
 }
 
+nav {
+    position: fixed;
+}
