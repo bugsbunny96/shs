@@ -63,7 +63,82 @@
 
   <!-- main -->
   <div class="container">
-    
+    <!-- appointment -->
+    <div class="container mt-5 mb-5">
+      <div class="row" style="background-color: #efefef; padding: 20px; border-radius: 15px;">
+        <h1 class="text-center text-uppercase text-decoration-underline" style="margin: 30px; padding-top: 30px;">Contact us <span><i class="fa-solid fa-at"></i></span></h1>
+        <div class="col" style="padding-top: 80px;">
+          <p class="text text-lg-center fs-5" style="padding: 100px 20px 50px 40px">
+            <i class="fa-solid fa-location-dot"></i><span><strong> Address: </strong>&nbsp;SCO 27, Sector 11, Panchkula – 134113</span><br> 
+            <i class="fa-solid fa-phone"></i><span><strong> Phone: </strong><a href="0172-4780349">0172-4780349</a></span><br>
+            <i class="fa-solid fa-mobile"></i><span><strong> M. No: </strong><a href="+91-9056876599">+91-9056876599</a></span><br>
+            <i class="fa-solid fa-envelope"></i><span><strong> E-mail: </strong><a href="info@mail.com">info@mail.com</a></span>
+          </p>
+        </div>
+        <div class="col" style="background-color: #26ace2; padding: 20px 0 20px 0; border-radius: 15px;">
+          <div class="container text-center text-light">
+            <h1 class="text-center text-uppercase text-decoration-underline" style="margin: 30px;">Book Appointment</h1>
+            <div class="col my-3">
+              <div class="content">
+                  <form action="assets/mail/contact.php" method="POST" class="contact-form">
+                      <div class="row my-5" style="margin-left: 10%">
+                          <div class="col-lg-10">
+                              <div class="form-group">
+                                  <input class=" form-control form-control-lg" id="name" name="name" placeholder="Name" type="text">
+                                  <span class="alert-error"></span>
+                              </div>
+                          </div>
+                      </div>
+                      <div class="row my-5" style="margin-left: 10%">
+                          <div class="col-lg-10">
+                              <div class="form-group">
+                                  <input class=" form-control form-control-lg" id="phone" name="phone" placeholder="Phone" type="text">
+                                  <span class="alert-error"></span>
+                              </div>
+                          </div>
+                      </div>
+                      <div class="row my-5" style="margin-left: 10%">
+                          <div class="col-lg-10">
+                              <div class="form-group">
+                                <input placeholder="Select date" type="datetime-local" id="Test_DatetimeLocal" class=" form-control form-control-lg">
+                                  <span class="alert-error"></span>
+                              </div>
+                          </div>
+                      </div>
+                      <div class="row my-5" style="margin-left: 10%">
+                          <div class="col-lg-10">
+                              <div class="form-group">
+                                  <input class=" form-control form-control-lg" id="name" name="name" placeholder="Dr Name" type="text">
+                                  <span class="alert-error"></span>
+                              </div>
+                          </div>
+                      </div>
+                      <div class="row my-5" style="margin-left: 10%">
+                          <div class="col-lg-10">
+                              <a href="#" class="btn btn-outline-light fs-5">Confirm Appointment</a>
+                          </div>
+                      </div>
+                      <!-- Alert Message -->
+                      <div class="col-lg-12 alert-notification">
+                          <div id="message" class="alert-msg"></div>
+                      </div>
+                  </form>
+              </div>
+          </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- map -->
+  <div class="container c-map  mt-5 mb-5 text-center text-dark" style="border-radius: 15px; padding: 20px; background-color: #efefef">
+    <div class="row">
+        <h2 class="text-center text-uppercase text-decoration-underline" style="padding-top: 60px; padding-bottom: 40px">Find Us Here</h2>
+    </div>
+    <div class="row">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3431.100873731129!2d76.84885261500976!3d30.68743779486559!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390f93aa7eada25b%3A0x2f73bf88ec191230!2sSEWA%20HI%20SEWA!5e0!3m2!1sen!2sin!4v1659782792934!5m2!1sen!2sin" width="100%" height="400" style="border:0;" allowfullscreen="" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
   </div>
     
   <!-- footer -->

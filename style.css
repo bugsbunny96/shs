@@ -42,6 +42,7 @@ nav {
 .nav-link:hover::before {
   width: 100%;
 }
+/* nav-links -END- */
 
 /* btn-bounce */
 .btn-bounce:hover {
@@ -64,4 +65,5 @@ nav {
     transform: translateY(-10px);
   }
 }
+/* btn-bounce -END- */
 
