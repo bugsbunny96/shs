@@ -72,7 +72,6 @@ nav {
 .fullwrap {
   position: relative; /* required for (c2) */
   max-width: 400px; /* optional */
-  /* padding: 50px; optional */
 }
  
 /* (B) RESPONSIVE IMAGE */
@@ -106,3 +105,11 @@ nav {
   visibility: visible; opacity: 1;
 }
 /* img-hover -END- */
+
+/* Services-page */
+.s-card {
+  background-color: #efefef;
+  border-radius: 50% 0 0 50%;
+  margin: 15px;
+  padding: 15px;
+}
