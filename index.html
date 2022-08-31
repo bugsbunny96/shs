@@ -119,10 +119,10 @@
       <!-- about -->
       <div class="container my-5" style="border-radius: 15px; background-color: #efefef">
         <div class="row">
-          <div class="col-md-4">
-            <img src="./img/doctors.jpg" alt="about-img" style="height: 470px; margin: 10px 10px 10px 0px; border-radius: 15px; width: 100%">
+          <div class="col-md-6">
+            <img src="./img/doctors.jpg" alt="about-img" style="margin: 10px 10px 10px 0px; border-radius: 15px; width: 100%">
           </div>
-          <div class="col-md-4" style="padding-top: 30px; padding-bottom: 30px">
+          <div class="col-md-6" style="padding-top: 30px; padding-bottom: 30px">
             <h1 class="text-uppercase text-center pt-4">about us</h1>
             <br>
             <p class="text fs-5 text" style="margin: 25px 50px 0 50px;">
@@ -244,69 +244,65 @@
       </div>
     </div>
 
-    <!-- appointment -->
-    <div class="container mt-5 mb-5">
-      <div class="row" style="background-color: #efefef; padding: 20px; border-radius: 15px;">
-        <div class="col text-lg-center" style="padding-top: 80px;">
-          <h1 class="text-center text-uppercase" style="margin: 30px; padding-top: 65px;">Welcome to <br> Sewa-Hi-Sewa</h1>
-          <br>
-          <p class="text fs-5" style="padding: 40px 30px 0 30px">We are happy that you have visited our website, and we invite you to know more about SHS and explore the opportunities that exist through our hospital. This website is a key tool to help us engage with you.</p>
-        </div>
-        <div class="col" style="background-color: #26ace2; padding: 20px 0 20px 0; border-radius: 15px;">
-          <div class="container text-center text-light">
-            <h1 class="text-center text-uppercase" style="margin: 30px;">Book Appointment</h1>
-            <div class="col my-3">
-              <div class="content">
-                  <form action="assets/mail/contact.php" method="POST" class="contact-form">
-                      <div class="row my-5" style="margin-left: 10%">
-                          <div class="col-lg-10">
-                              <div class="form-group">
-                                  <input class=" form-control form-control-lg" id="name" name="name" placeholder="Name" type="text">
-                                  <span class="alert-error"></span>
-                              </div>
-                          </div>
-                      </div>
-                      <div class="row my-5" style="margin-left: 10%">
-                          <div class="col-lg-10">
-                              <div class="form-group">
-                                  <input class=" form-control form-control-lg" id="phone" name="phone" placeholder="Phone" type="text">
-                                  <span class="alert-error"></span>
-                              </div>
-                          </div>
-                      </div>
-                      <div class="row my-5" style="margin-left: 10%">
-                          <div class="col-lg-10">
-                              <div class="form-group">
-                                <input placeholder="Select date" type="datetime-local" id="Test_DatetimeLocal" class=" form-control form-control-lg">
-                                  <span class="alert-error"></span>
-                              </div>
-                          </div>
-                      </div>
-                      <div class="row my-5" style="margin-left: 10%">
-                          <div class="col-lg-10">
-                              <div class="form-group">
-                                  <input class=" form-control form-control-lg" id="name" name="name" placeholder="Dr Name" type="text">
-                                  <span class="alert-error"></span>
-                              </div>
-                          </div>
-                      </div>
-                      <div class="row my-5" style="margin-left: 10%">
-                          <div class="col-lg-10">
-                              <a href="#" class="btn btn-bounce btn-outline-light fs-5">Confirm Appointment</a>
-                          </div>
-                      </div>
-                      <!-- Alert Message -->
-                      <div class="col-lg-12 alert-notification">
-                          <div id="message" class="alert-msg"></div>
-                      </div>
-                  </form>
+    <div class="container p-2">
+      <h1 class="text-uppercase text-light fw-bold text-center p-4" style="background-color: #26ace2; border-radius: 50px;">Reach Us</h1>
+  
+      <div class="row mt-5 text-light">
+  
+        <!-- form -->
+        <div class="col-md-7 me-3" style="border-radius: 15px; padding: 20px; background-color: #26ace2"> 
+          <div role="form" class="wpcf7" id="wpcf7-f41-o1" lang="en-US" dir="ltr">
+            <div class="screen-reader-response">
+              <p role="status" aria-live="polite" aria-atomic="true"></p>
+              <ul></ul>
+            </div>
+            <form action="/contact-us/#wpcf7-f41-o1" method="post" class="wpcf7-form init" novalidate="novalidate" data-status="init">
+              <div style="display: none;">
+                <input type="hidden" name="_wpcf7" value="41">
+                <input type="hidden" name="_wpcf7_version" value="5.5.6">
+                <input type="hidden" name="_wpcf7_locale" value="en_US">
+                <input type="hidden" name="_wpcf7_unit_tag" value="wpcf7-f41-o1">
+                <input type="hidden" name="_wpcf7_container_post" value="0">
+                <input type="hidden" name="_wpcf7_posted_data_hash" value="">
               </div>
-          </div>
+              <div class="section-title">
+                <h3>Contact Us</h3>
+              </div>
+              <div class="contact-form">
+                <div class="form-control-wrap mt-2">
+                  <span class="wpcf7-form-control-wrap Name"><input type="text" name="Name" value="" size="40" class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required form-control" aria-required="true" aria-invalid="false" placeholder="Name"></span>
+                </div>
+                <div class="form-control-wrap mt-2">
+                  <span class="wpcf7-form-control-wrap Email"><input type="email" name="Email" value="" size="40" class="wpcf7-form-control wpcf7-text wpcf7-email wpcf7-validates-as-email form-control" aria-invalid="false" placeholder="Email"></span>
+                </div>
+                <div class="form-control-wrap mt-2">
+                  <span class="wpcf7-form-control-wrap Phone"><input type="text" name="Phone" value="" size="40" class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required form-control" aria-required="true" aria-invalid="false" placeholder="Phone"></span>
+                </div>
+                <div class="form-control-wrap mt-2">
+                  <span class="wpcf7-form-control-wrap Message"><textarea name="Message" cols="40" rows="6" class="wpcf7-form-control wpcf7-textarea wpcf7-validates-as-required form-control textarea" aria-required="true" aria-invalid="false" placeholder="Message"></textarea></span>
+                </div>
+                <div class="form-submit mt-3">
+                  <a href="" class="btn btn-bounce btn-outline-light fw-bold fs-5">SUBMIT</a>
+                </div>
+              </div>
+              <div class="wpcf7-response-output" aria-hidden="true"></div>
+            </form>
+          </div>	
+        </div>
+  
+        <!-- Contact Data -->
+        <div class="col-md-4 ps-4 pt-4 text-dark"  style="background-color: #efefef; border-radius: 15px"> 
+          <div class="container">
+            <h1 class="text-center text-uppercase" style="margin: 1px;">Welcome to <br> Sewa-Hi-Sewa</h1>
+            <br>
+            <p class="text fs-5" style="padding: 40px 30px 0 30px">We are happy that you have visited our website, and we invite you to know more about SHS and explore the opportunities that exist through our hospital. This website is a key tool to help us engage with you.</p>
           </div>
         </div>
+  
       </div>
+  
     </div>
-
+  
     <!-- offer -->
     <div class="container my-5" style="background-color: #26ace2; border-radius: 15px;">
       <div class="row text-center" style="padding: 80px 20px 80px 20px;">
@@ -331,7 +327,7 @@
     
     <!-- footer -->
     <div class="py-2 px-5 footer mt-5" style="background-color: #26ace2">
-      <div class="row">
+      <div class="row justify-content-between">
           <div class="col mx-3">
               <h2 class="text fw-500 my-3 text-light text-uppercase" style="padding-top: 20px;">About</h2>
               <div class="social-icon my-3">
@@ -340,10 +336,11 @@
                 <a href="#" class="text text-light fa fa-instagram text-decoration-none fs-5 mx-4"></a>
                 <a href="#" class="text text-light fa fa-twitter text-decoration-none fs-5 mx-4"></a>
             </div>
-              <p class="text-light text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi ratione quasi consequatur autem reprehenderit commodi provident sapiente aliquid, deserunt unde!</p>
-              
+              <p class="text-light text">Healthcare For All! <br>
+                Sewa Hi Sewa is a complete healthcare solution for everyone. Being the first hospital with a medical shop providing 63% off on branded medicines, we aim to bring health facilities for everyone at affordable prices. Our expert team of doctors has expertise in various fields providing the patients with world-class services.
+              </p>
           </div>
-          <div class="col mx-3" style="margin-left: 250px !important">
+          <div class="col mx-3">
               <h2 class="text fw-500 my-3 text-light text-uppercase" style="padding-top: 20px;">Nevigation</h2>
               <ul style="list-style: none; margin-left: -30px">
                   <li class="mt-2">
